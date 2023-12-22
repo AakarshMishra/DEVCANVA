@@ -4,7 +4,7 @@ import React from "react";
 import Title from "../components/Title";
 import { section3Content } from "../utils/content";
 
-const { title, ITEMS } = section3Content;
+const { title, ITEMS ,ITEMS2,ITEMS3} = section3Content;
 
 const Section3 = () => {
   return (
@@ -14,6 +14,8 @@ const Section3 = () => {
           {title}
         </Title>
       </Container>
+      
+      <h2 style={{marginTop:"80px",marginBottom:"10px"}}>Website-Development Technologies:</h2>
 
       <Grid container spacing={5} sx={{ mt: 4 }} justifyContent="center">
         {ITEMS.map(({ name, logo }) => (
@@ -31,6 +33,43 @@ const Section3 = () => {
           </Grid>
         ))}
       </Grid>
+
+      <h2 style={{marginTop:"80px",marginBottom:"10px"}}>Application-Development Technologies:</h2>
+
+      <Grid container spacing={5} sx={{ mt: 4 }} justifyContent="center">
+        {ITEMS2.map(({ name, logo }) => (
+          <Grid item xs={4} md={3} lg={2.4} key={name}>
+            <Stack alignItems="center">
+              <img
+                src={logo}
+                style={{ height: "120px", objectFit: "contain" }}
+              />
+
+              <Typography variant="body2" color="text.secondary">
+                {name}
+              </Typography>
+            </Stack>
+          </Grid>
+        ))}
+      </Grid>
+      <h2 style={{marginTop:"80px",marginBottom:"10px"}}>Backend Technologies:</h2>
+
+<Grid container spacing={5} sx={{ mt: 4 }} justifyContent="center">
+  {ITEMS3.map(({ name, logo }) => (
+    <Grid item xs={4} md={3} lg={2.4} key={name}>
+      <Stack alignItems="center">
+        <img
+          src={logo}
+          style={{ height: "120px", objectFit: "contain" }}
+        />
+
+        <Typography variant="body2" color="text.secondary">
+          {name}
+        </Typography>
+      </Stack>
+    </Grid>
+  ))}
+</Grid>
     </Container>
   );
 };

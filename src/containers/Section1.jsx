@@ -49,7 +49,7 @@ const Section1 = () => {
   const [ref, { height }] = useMeasure();
 
   return (
-    <Box sx={{ width: "100%" }}>
+    <Box sx={{ width: "100%"}}>
       {/* Main Background */}
       <Box sx={{ position: "fixed", zIndex: -10, top: 0, left: 0, right: 0 }}>
         <img src={MainBG} style={{ width: "100%" }} />
@@ -164,7 +164,7 @@ const Section1 = () => {
               sx={{ height: 58, px: 3 }}
             />
 
-            <CustomButton fullWidth={isSmallScreen}>
+            {/* <CustomButton fullWidth={isSmallScreen}>
               <AppleIcon sx={{ fontSize: 36, ml: -1 }} />
 
               <Stack sx={{ textAlign: "left", ml: 1 }}>
@@ -173,7 +173,7 @@ const Section1 = () => {
                 </Typography>
                 <Typography variant="h5">App Store</Typography>
               </Stack>
-            </CustomButton>
+            </CustomButton> */}
 
             <CustomButton fullWidth={isSmallScreen}>
               <GoogleIcon sx={{ fontSize: 36, ml: -1 }} />
@@ -182,7 +182,7 @@ const Section1 = () => {
                 <Typography variant="caption" sx={{ lineHeight: 1 }}>
                   Get in on
                 </Typography>
-                <Typography variant="h5">Google Play</Typography>
+                <Typography variant="h5">Play Store!</Typography>
               </Stack>
             </CustomButton>
           </Stack>

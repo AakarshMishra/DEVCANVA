@@ -6,7 +6,7 @@ import CliffImage from "../assets/images/section1/main-bg-2_1.webp";
 import HorseImage from "../assets/images/section1/main-bg-3.png";
 
 // Section3
-import EthImg from "../assets/images/section3/eth.webp";
+import EthImg from "../assets/images/section3/android.png";
 import BscImg from "../assets/images/section3/bsc.webp";
 import PolygonImg from "../assets/images/section3/polygon.webp";
 import OptimismImg from "../assets/images/section3/optimism.webp";
@@ -90,32 +90,46 @@ export const section1Content = {
   CliffImage,
   HorseImage,
   ShootingStarImage,
-  title: "One-stop access",
-  subtitle: "to decentralized finance",
+  title: "Build Your Brand,",
+  subtitle: "Tell Your Story!!",
 };
 
 export const section2Content = {
   items: [
-    { counter: 345, subtitle: "Liquidity sources" },
-    { counter: 345, before: "$", after: "B+", subtitle: "Total volume" },
-    { counter: 4.4, after: "M+", subtitle: "Total wallets", decimals: true },
-    { counter: 28.7, after: "M+", subtitle: "Total Trades", decimals: true },
+    { counter: 50,after: " +", subtitle: "Total Projects Delivered!" },
+    { counter: 25,after: " +", subtitle: "Websites!" },
+    { counter: 15, after: " +", subtitle: "Mobile Applications!",},
+    { counter: 10, after: " +", subtitle: "UI/UX Designs!",},
   ],
 };
 
 export const section3Content = {
-  title: "Optimize your trades across hundreds of DEXes on multiple networks",
+  title: "Brushstrokes Of Our Development Canva!",
   ITEMS: [
-    { logo: EthImg, name: "Ethereum" },
-    { logo: BscImg, name: "BNB Chain" },
-    { logo: PolygonImg, name: "Polygon" },
-    { logo: OptimismImg, name: "Optimism" },
-    { logo: GnosisImg, name: "Gnosis" },
-    { logo: AvalancheImg, name: "Avalanche" },
-    { logo: ArbitrumImg, name: "Arbitrum" },
-    { logo: FantomImg, name: "Fantom" },
-    { logo: KlaytnImg, name: "Klaytn" },
-    { logo: AuroraImg, name: "Aurora" },
+    { logo: EthImg, name: "React" },
+    { logo: BscImg, name: "Node" },
+    { logo: PolygonImg, name: "Express" },
+    { logo: OptimismImg, name: "WordPress" },
+    { logo: GnosisImg, name: "Webflow" },
+    { logo: AvalancheImg, name: "Tailwind" },
+    { logo: ArbitrumImg, name: "Next" },
+    { logo: FantomImg, name: "Angular" },
+    { logo: KlaytnImg, name: "Glide" },
+    { logo: AuroraImg, name: "Bubble.io" },
+  ],
+  ITEMS2: [
+    { logo: EthImg, name: "Flutter" },
+    { logo: BscImg, name: "Native Android" },
+    { logo: PolygonImg, name: "IOS" },
+    { logo: OptimismImg, name: "FlutterFlow" },
+    { logo: GnosisImg, name: "Glide" },
+  ],
+  ITEMS3: [
+    { logo: EthImg, name: "MongoDB" },
+    { logo: BscImg, name: "Firebase" },
+    { logo: PolygonImg, name: "SQL" },
+    { logo: OptimismImg, name: "SQLite" },
+    { logo: GnosisImg, name: "Google-Cloud" },
   ],
 };
 
